@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cead6b94-f65f-4422-865d-249a07997124" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/19. Remove Nth Node From End of List/removeNthFromEnd.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17. Letter Combinations of a Phone Number/phoneNumber.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/24. Swap Nodes in Pairs/SwapNodesPairs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/39. Combination Sum/CombinationSum.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/findoffer/fib.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/findoffer/findnuminarray" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/148. Sort List/SortList.js" beforeDir="false" afterPath="$PROJECT_DIR$/148. Sort List/SortList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15.3Sum/3Sum.js" beforeDir="false" afterPath="$PROJECT_DIR$/15.3Sum/3Sum.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Median of Two Sorted Arrays/midofTwoArray.js" beforeDir="false" afterPath="$PROJECT_DIR$/4. Median of Two Sorted Arrays/midofTwoArray.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4. Median of Two Sorted Arrays/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/4. Median of Two Sorted Arrays/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/7. Reverse Integer/ReverseInteger.js" beforeDir="false" afterPath="$PROJECT_DIR$/7. Reverse Integer/ReverseInteger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,15 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ReverseInteger.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/7. Reverse Integer/ReverseInteger.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="3Sum.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/15.3Sum/3Sum.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,17 +34,62 @@
       <file leaf-file-name="mergeTwoLists.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/21.Merge Two Sorted Lists/mergeTwoLists.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+            <state relative-caret-position="22">
+              <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="3" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="18" selection-start-line="18" selection-end-line="27" selection-end-column="2" />
+            <state relative-caret-position="660">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="findnuminarray" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/findoffer/findnuminarray">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fib.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/findoffer/fib.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SwapNodesPairs.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/24. Swap Nodes in Pairs/SwapNodesPairs.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="484">
+              <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="phoneNumber.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/17. Letter Combinations of a Phone Number/phoneNumber.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CombinationSum.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/39. Combination Sum/CombinationSum.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -113,6 +148,11 @@
         <option value="$PROJECT_DIR$/148. Sort List/SortList.js" />
         <option value="$PROJECT_DIR$/19. Remove Nth Node From End of List/removeNthFromEnd.js" />
         <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/findoffer/findnuminarray" />
+        <option value="$PROJECT_DIR$/findoffer/fib.js" />
+        <option value="$PROJECT_DIR$/24. Swap Nodes in Pairs/SwapNodesPairs.js" />
+        <option value="$PROJECT_DIR$/17. Letter Combinations of a Phone Number/phoneNumber.js" />
+        <option value="$PROJECT_DIR$/39. Combination Sum/CombinationSum.js" />
       </list>
     </option>
   </component>
@@ -126,8 +166,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="123" />
-    <option name="y" value="109" />
+    <option name="x" value="138" />
+    <option name="y" value="120" />
     <option name="width" value="1302" />
     <option name="height" value="775" />
   </component>
@@ -139,6 +179,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,11 +187,15 @@
               <item name="algo" type="b2602c69:ProjectViewProjectNode" />
               <item name="algo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="algo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algo" type="462c0819:PsiDirectoryNode" />
+              <item name="39. Combination Sum" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,11 +249,14 @@
       <workItem from="1553843967512" duration="10444000" />
       <workItem from="1554202444917" duration="9685000" />
       <workItem from="1554358201498" duration="812000" />
+      <workItem from="1554365319931" duration="131000" />
+      <workItem from="1555207274007" duration="12128000" />
+      <workItem from="1555905609611" duration="2281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50469000" />
+    <option name="totallyTimeSpent" value="65009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -220,20 +268,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="123" y="109" width="1302" height="775" extended-state="0" />
-    <editor active="true" />
+    <frame x="138" y="120" width="1302" height="775" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20873016" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32931727" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Mongo Explorer" order="3" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.48377582" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.31563422" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -255,13 +302,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/7. Reverse Integer/ReverseInteger.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/15.3Sum/3Sum.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
@@ -542,13 +582,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/148. Sort List/SortList.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/19. Remove Nth Node From End of List/removeNthFromEnd.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
@@ -556,17 +589,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/21.Merge Two Sorted Lists/mergeTwoLists.js">
+    <entry file="file://$PROJECT_DIR$/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="40" column="7" lean-forward="true" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        <state relative-caret-position="660">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.js">
+    <entry file="file://$PROJECT_DIR$/findoffer/findnuminarray">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="18" selection-start-line="18" selection-end-line="27" selection-end-column="2" />
+        <state relative-caret-position="374">
+          <caret line="17" column="31" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/findoffer/fib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="28" selection-start-column="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/21.Merge Two Sorted Lists/mergeTwoLists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" selection-start-line="1" selection-end-line="9" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/148. Sort List/SortList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/24. Swap Nodes in Pairs/SwapNodesPairs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="484">
+          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/17. Letter Combinations of a Phone Number/phoneNumber.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/39. Combination Sum/CombinationSum.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
         </state>
       </provider>
     </entry>
