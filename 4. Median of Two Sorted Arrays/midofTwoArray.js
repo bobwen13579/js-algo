@@ -3,13 +3,20 @@
  * @param {number[]} nums2
  * @return {number}
  */
-var findMedianSortedArrays = function(nums1, nums2) {
-    if (nums1.length > nums2.length) return findMedianSortedArrays(nums2, nums1);
-    const midlen = Math.trunc((nums1.length + nums2.length + 1) / 2);
-    let start = 0, end = nums1.length - 1, x = findmid(0, end), y = midlen - x;
-};
-findmid = (start, end = 0) => {
-    return Math.trunc((start + end + 1) / 2);
+const findMedianSortedArrays = (nums1, nums2) => {
+    // 合并数组
+    var s = nums1.concat(nums2);
+
+    // 排序
+    s.sort(function(a, b) {
+        return a - b;
+    });
+
+    let len = s.length;
+
+    // 根据数组长度求中位数
+    if (len % 2 !== 0) return s[~~(len / 2)];
+    else return (s[len / 2 - 1] + s[len / 2]) / 2;
 };
 
-console.log(findMedianSortedArrays([3],[-2, -1]));
+console.log(findMedianSortedArrays([3],[-2, 6]));
