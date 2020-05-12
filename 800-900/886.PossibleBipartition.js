@@ -14,22 +14,23 @@ var possibleBipartition = function(N, dislikes) {
         graph[sIndex].push(eIndex);
         graph[eIndex].push(sIndex);
     })
+    // 多联通分量
     for(let i =0; i < nodes.length; i++) {
-        depth(i, nodes, graph)
-        if (nodes[i] === 0 && !depth(i, nodes,graph,color)) return false;
-        return true;
-    }
-};
-
-const depth = (index, nodes, graph, color=1) => {
-    nodes[index] = color;
-    console.log(color);
-    for(let i = 0; i < graph[index].length; i++){
-        const next = graph[index][i];
-        if (next === 0 && !depth(next, nodes, graph, -color) )return false;
-        else if (next == color) return false;
+        if (nodes[i] === 0 && !dfsCheckDifColor(i, nodes,graph,1)) return false;
     }
     return true;
 };
 
-console.log(possibleBipartition(3, [[1,2],[1,3],[2,3]]))
+const dfsCheckDifColor = (index, nodes, graph, color=1) =>{
+    nodes[index] = color;
+    for(let i = 0; i < graph[index].length; i++){
+        const nextNodeCur = graph[index][i];
+        const next = nodes[nextNodeCur];
+        // console.log(graph,nodes);
+        if (next === color) return false;
+        if (next === 0 && !depth(nextNodeCur, nodes, graph, -color) )return false;
+    }
+    return true;
+};
+
+// console.log(possibleBipartition(5, [[1,2],[3,4],[4,5],[3,5]]))
