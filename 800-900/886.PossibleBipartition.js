@@ -23,8 +23,9 @@ var possibleBipartition = function(N, dislikes) {
 
 const dfsCheckDifColor = (index, nodes, graph, color=1) =>{
     nodes[index] = color;
-    for(let i = 0; i < graph[index].length; i++){
-        const nextNodeCur = graph[index][i];
+    const nearNodes = graph[index];
+    for(let i = 0; i < nearNodes.length; i++){
+        const nextNodeCur = nearNodes[i];
         const next = nodes[nextNodeCur];
         // console.log(graph,nodes);
         if (next === color) return false;
