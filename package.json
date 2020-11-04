@@ -1,0 +1,23 @@
+{
+  "name": "js-algo",
+  "version": "1.0.0",
+  "description": "leet code problem solution",
+  "main": "intToRoman.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobwen13579/js-algo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobwen13579/js-algo/issues"
+  },
+  "homepage": "https://github.com/bobwen13579/js-algo#readme",
+  "dependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
