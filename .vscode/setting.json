@@ -8,6 +8,6 @@
         }
     },
     "eslint.options": {
-        "configFile": "../.eslintrc.js"
+        "configFile": ".eslintrc.js"
     }
 }

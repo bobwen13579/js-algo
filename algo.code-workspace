@@ -5,6 +5,9 @@
     },
     {
       "path": "dp"
+    },
+    {
+      "path": "recall"
     }
   ],
   "settings": {

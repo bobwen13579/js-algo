@@ -28,7 +28,7 @@ module.exports = {
 	},
 	plugins: ['vue', '@typescript-eslint'],
 	rules: {
-		'no-unused-vars': 'off',
-		'no-mixed-spaces-and-tabs': 'off',
+		'no-unused-vars': 'on',
+		'no-mixed-spaces-and-tabs': 'on',
 	},
 };
