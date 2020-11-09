@@ -8,15 +8,18 @@
     }
   ],
   "settings": {
-    "statusbarerror.wholeLine.show": true,
-    "vetur.format.enable": true,
-    "vetur.format.defaultFormatterOptions": {
-      "prettier": {
-        // Prettier option here
-        "semi": false,
-        "printWidth": 160
-      }
-    },
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"[javascript]": {
+			"editor.formatOnSave": true,
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		},
+		"prettier.singleQuote": true,
+		"prettier.semi": true,
+		"prettier.useTabs": true,
+		"prettier.tabWidth": 2,
+		"[typescript]": {
+			"editor.defaultFormatter": "esbenp.prettier-vscode"
+		}
   },
   "extensions": {
     "recommendations": [
@@ -32,11 +35,6 @@
       "dbaeumer.vscode-eslint",
       "monastic-panic.jest-runner",
       "octref.vetur",
-      // mini app
-      "qiu8310.minapp-vscode",
-      // git
-      "mhutchie.git-graph",
-      "eamodio.gitlens"
     ]
-  }
+  },
 }

@@ -6,6 +6,7 @@ const travel = (tree) => {
   const stack1 = [tree];
   const nodeStack = [];
   while (stack1.length) {
+    // 出栈
     const node = stack1.pop();
     // 访问中节点
     nodeStack.push(node);
