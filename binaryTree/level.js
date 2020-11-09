@@ -6,21 +6,23 @@ const { tree } = require('./testData.js');
  * @param {*}
  * @return {*}
  */
-var minDepth = function (root) {
+var levelOrder = function (root) {
 	if (!root) return 0;
 	const queue = [root];
-	let deep = 1;
+	const bucket = [];
+
 	while (queue.length) {
 		const width = queue.length;
+		const level = [];
 		for (let i = 0; i < width; i++) {
 			const node = queue.pop();
 			if (node.left) queue.unshift(node.left);
 			if (node.right) queue.unshift(node.right);
-			if (!node.left && !node.right) return deep;
+			level.push(node.val);
 		}
-		deep += 1;
+		bucket.push(level);
 	}
-	return deep;
+	return bucket;
 };
 
-console.log(minDepth(tree));
+console.log(levelOrder(tree));
