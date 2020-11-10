@@ -7,6 +7,9 @@
       "path": "dp"
     },
     {
+      "path": "recall"
+    },
+    {
       "path": "binaryTree"
     }
   ],

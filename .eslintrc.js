@@ -47,7 +47,12 @@ module.exports = {
 		},
 	},
 	rules: {
+<<<<<<< HEAD
 		'no-unused-vars': 1,
 		'no-mixed-spaces-and-tabs': 1,
+=======
+		'no-unused-vars': 'on',
+		'no-mixed-spaces-and-tabs': 'on',
+>>>>>>> b2f8a53838bb125f7d8c4d290f4e5837c03cd5ed
 	},
 };
