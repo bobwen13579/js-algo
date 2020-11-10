@@ -8,25 +8,16 @@
  */
 
  const tree = {
-     val: 1,
+     val: 10,
      left: {
          val: 2,
-         left: {
-             val: 4
-         },
-         right: {
-            val: 5,
-            left: {
-                val: 7
-            },
-            right: {
-               val: 8
-            }
-         }
      },
      right: {
-        val: 3,
+        val: 15,
         right: {
+            val: 20,
+        },
+        left: {
             val: 6,
         }
     },
