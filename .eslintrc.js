@@ -5,11 +5,7 @@ module.exports = {
 		node: true,
 		commonjs: true,
 	},
-	extends: [
-		'eslint:recommended',
-		'plugin:vue/essential',
-		'plugin:@typescript-eslint/eslint-recommended',
-	],
+	extends: ['eslint:recommended'],
 	globals: {
 		Atomics: 'readonly',
 		SharedArrayBuffer: 'readonly',
@@ -22,13 +18,41 @@ module.exports = {
 		getCurrentPages: 'writable',
 	},
 	parserOptions: {
-		ecmaVersion: 2018,
-		parser: '@typescript-eslint/parser',
+		ecmaVersion: 6,
 		sourceType: 'module',
+		ecmaFeatures: {
+			arrowFunctions: true,
+			binaryLiterals: true,
+			blockBindings: true,
+			classes: true,
+			defaultParams: true,
+			destructuring: true,
+			forOf: true,
+			generators: true,
+			modules: true,
+			objectLiteralComputedProperties: true,
+			objectLiteralDuplicateProperties: true,
+			objectLiteralShorthandMethods: true,
+			objectLiteralShorthandProperties: true,
+			octalLiterals: true,
+			regexUFlag: true,
+			regexYFlag: true,
+			spread: true,
+			superInFunctions: true,
+			templateStrings: true,
+			unicodeCodePointEscapes: true,
+			globalReturn: true,
+			jsx: true,
+			experimentalObjectRestSpread: true,
+		},
 	},
-	plugins: ['vue', '@typescript-eslint'],
 	rules: {
+<<<<<<< HEAD
+		'no-unused-vars': 1,
+		'no-mixed-spaces-and-tabs': 1,
+=======
 		'no-unused-vars': 'on',
 		'no-mixed-spaces-and-tabs': 'on',
+>>>>>>> b2f8a53838bb125f7d8c4d290f4e5837c03cd5ed
 	},
 };

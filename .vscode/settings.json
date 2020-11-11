@@ -1,0 +1,10 @@
+{
+  "statusbarerror.wholeLine.show": true,
+  "vetur.format.enable": true,
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false,
+      "printWidth": 160
+    }
+  },
+}
