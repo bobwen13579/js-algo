@@ -7,29 +7,55 @@
  * }
  */
 
- const tree = {
-     val: 1,
-     left: {
-         val: 2,
-         left: {
-             val: 4
-         },
-         right: {
-            val: 5,
-            left: {
-                val: 7
-            },
-            right: {
-               val: 8
-            }
-         }
-     },
-     right: {
-        val: 3,
-        right: {
-            val: 6,
-        }
-    },
- }
-
- exports.tree = tree;
+function TreeNode(val, left = null, right = null) {
+	this.val = val;
+	this.left = left;
+	this.right = right;
+}
+/**
+ * 通过一个层次遍历的数组生成一棵二叉树
+ * @param {any[]} array
+ * @return {TreeNode}
+ */
+exports.getTreeFromLayerOrderArray = (array) => {
+	let n = array.length;
+	if (!n) return null;
+	let index = 0;
+	let root = new TreeNode(array[index++]);
+	let queue = [root];
+	while (index < n) {
+		let top = queue.shift();
+		let v = array[index++];
+		top.left = v == null ? null : new TreeNode(v);
+		if (index < n) {
+			let v = array[index++];
+			top.right = v == null ? null : new TreeNode(v);
+		}
+		if (top.left) queue.push(top.left);
+		if (top.right) queue.push(top.right);
+	}
+	return root;
+};
+/**
+ * 层序遍历一棵二叉树 生成一个数组
+ * @param {TreeNode} root
+ * @return {any[]}
+ */
+function getLayerOrderArrayFromTree(root) {
+	let res = [];
+	let que = [root];
+	while (que.length) {
+		let len = que.length;
+		for (let i = 0; i < len; i++) {
+			let cur = que.shift();
+			if (cur) {
+				res.push(cur.val);
+				que.push(cur.left, cur.right);
+			} else {
+				res.push(null);
+			}
+		}
+	}
+	while (res.length > 1 && res[res.length - 1] == null) res.pop(); // 删掉结尾的 null
+	return res;
+}

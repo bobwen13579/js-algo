@@ -19,9 +19,9 @@
         return
     }
     // 子节点遍历
-    inputs.forEach(element => {
+    inputs.forEach(el => {
         //判定条件
-        if(!track.includes(1)){
+        if(!track.includes(el)){
             track.push(element);
             backtrack(inputs,track, res);
             // 会退到上一个节点做决策

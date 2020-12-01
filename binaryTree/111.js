@@ -16,6 +16,7 @@ var minDepth = function (root) {
 			const node = queue.pop();
 			if (node.left) queue.unshift(node.left);
 			if (node.right) queue.unshift(node.right);
+			// 叶子节点则返回
 			if (!node.left && !node.right) return deep;
 		}
 		deep += 1;

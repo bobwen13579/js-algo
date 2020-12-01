@@ -11,7 +11,13 @@
     },
     {
       "path": "binaryTree"
-    }
+    },
+    {
+      "path": "search"
+    },
+    {
+      "path": "minWindows"
+    },
   ],
   "settings": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode",

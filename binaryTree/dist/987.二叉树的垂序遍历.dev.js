@@ -1,0 +1,22 @@
+"use strict";
+
+/*
+ * @lc app=leetcode.cn id=987 lang=javascript
+ *
+ * [987] 二叉树的垂序遍历
+ */
+// @lc code=start
+
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+
+/**
+ * @param {TreeNode} root
+ * @return {number[][]}
+ */
+var verticalTraversal = function verticalTraversal(root) {}; // @lc code=end
